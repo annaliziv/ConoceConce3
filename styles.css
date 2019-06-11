@@ -1,0 +1,61 @@
+html,body{
+  width: 100%;
+	height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#contenedor{
+  width: 100%;
+  height: 100%;
+}
+
+#cabezera{
+  width: 100%;
+  height: 10%;
+  background-color: #32155b;
+}
+
+#cuerpo{
+  width: 100%;
+  height: 90%;
+  background-image: url(https://www.notariamiranda.cl/img/foto-conce.jpg?v=);
+  background-repeat: no-repeat;
+}
+
+#cuerpo-video{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  left: 34%;
+  top: 8%;
+}
+
+#webcam{
+  height: 400px;
+  width: 400px;
+}
+button{
+  width: 60px;
+  height: 60px;
+  background-color: #32155b;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #32155b;
+}
+
+button:hover{
+  opacity: 0.50;
+  -moz-opacity: 0.50;
+  filter:alpha (opacity=50);
+}
+
+button,a{
+  font-size: 10px;
+  font-weight: bold;
+  color:#fff;
+  text-decoration:none;
+  text-align: center;
+  padding:5px 5px 5px 0;
+}
